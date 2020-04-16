@@ -17,11 +17,14 @@ namespace BeDudeApiWebRole
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.js"));
+                      "~/Scripts/2.10201f46.chunk.js",
+                      "~/Scripts/main.e7be4b93.chunk.js"
+                      ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/2.c6095b75.chunk.css",
+                      "~/Content/main.9013e065.chunk.css"));
+
         }
     }
 }
